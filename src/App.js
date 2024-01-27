@@ -17,7 +17,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/main" element={<MainPage />} />
-        <Route path="/:movieId" element={<MovieDetail />} />
+        <Route path="/movie/:id" element={<MovieDetail />} />
         <Route path="/login" element={<Login />} />
         <Route path="/search" element={<Search />} />
       </Routes>
