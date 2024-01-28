@@ -18,7 +18,7 @@ const Nav = () => {
   const goHome = () => {
     navi('/');
   };
-  console.log(pathname, search);
+  // console.log(pathname, search);
 
   const handleChange = (e) => {
     setInputValue(e.target.value);
